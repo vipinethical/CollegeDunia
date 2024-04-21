@@ -1,0 +1,32 @@
+@import "~antd/dist/antd.css";
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+.App input {
+  margin-bottom: 20px;
+}
+
+/* Add styling for table, headers, cells, buttons, etc. */
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.loader {
+  text-align: center;
+  margin: 10px 0;
+}
